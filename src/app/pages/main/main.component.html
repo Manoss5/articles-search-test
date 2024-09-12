@@ -1,0 +1,49 @@
+<header class="main-header">
+  <div class="header-overlay">
+    <h1>A simple page to search for articles</h1>
+  </div>
+</header>
+
+<main>
+  <section aria-labelledby="search-header" class="search-wrapper">
+    <header>
+      <h2 id="search-header" class="search-header">Search Articles</h2>
+    </header>
+    <form role="search" aria-label="Search articles">
+      <div class="search-bar">
+        <label for="search-input">Search for articles</label>
+        <input
+          type="text"
+          id="search-input"
+          name="search"
+          placeholder="Start typing..."
+          aria-placeholder="Search for articles"
+          aria-required="true"
+          autofocus
+          required
+          (keydown.enter)="$event.preventDefault()"
+          (input)="searchArticles($event)"
+        />
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </div>
+    </form>
+  </section>
+
+  <section aria-labelledby="articles-label" class="articles-wrapper">
+    <header>
+      @if (articlesLoading) {
+      <h2 id="loading-label" aria-busy="true">Loading...</h2>
+      } @else if (articles.length > 0) {
+      <h2 id="articles-label">Search Results</h2>
+      } @else {
+      <h2 id="articles-label">Type something to search</h2>
+      }
+    </header>
+
+    <ul class="articles-list">
+      @for (article of articles; track article.id) {
+      <app-article-preview [article]="article" />
+      }
+    </ul>
+  </section>
+</main>

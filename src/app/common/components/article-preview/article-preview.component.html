@@ -1,0 +1,25 @@
+<li>
+  <article
+    class="article-preview"
+    attr.aria-labelledby="article-{{ article.id }}"
+  >
+    <div class="article-back">
+      <p>{{ article.preview }}</p>
+      <footer>
+        <a
+          [href]="'/article/' + article.id"
+          attr.aria-label="Read more about {{ article.title }}"
+        >
+          ...Read more
+        </a>
+      </footer>
+    </div>
+    <div class="article-front">
+      <header>
+        <h3 id="article-{{ article.id }}">{{ article.title }}</h3>
+      </header>
+      <p>{{ article.description }}</p>
+      <div class="overlay-gradient"></div>
+    </div>
+  </article>
+</li>

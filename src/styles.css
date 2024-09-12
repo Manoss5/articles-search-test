@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: Tahoma, Helvetica, Arial, Verdana, "Times New Roman";
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgba(23, 22, 50, 0.64);
+  margin: 0;
+}

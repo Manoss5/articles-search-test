@@ -1,0 +1,26 @@
+@if (article) {
+<header class="main-header">
+  <h1>{{ article.title }}</h1>
+</header>
+
+<main class="article-wrapper">
+  <section aria-labelledby="article-page-header">
+    <header>
+      <h2 id="article-page-header">The contents of the article</h2>
+    </header>
+    <article>
+      <p id="article-content-header">{{ article.body }}</p>
+    </article>
+  </section>
+</main>
+
+} @else {
+<section aria-labelledby="error-title" class="error-section">
+  <header>
+    <h1 id="error-title">Oops! Something went wrong</h1>
+  </header>
+  <p aria-live="assertive">We couldn't find the article you are looking for</p>
+
+  <a href="/">Go to the homepage</a>
+</section>
+}

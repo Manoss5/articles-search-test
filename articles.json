@@ -1,0 +1,84 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "type": "articles",
+      "attributes": {
+        "title": "title for article1",
+        "preview": "preview for article1",
+        "description": "description for article1 description for article1 description for article1 description for article1 description for article1 description for article1 description for article1 description for article1 description for article1 description for article1 description for article1",
+        "body": "body for article1"
+      }
+    },
+    {
+      "id": 2,
+      "type": "articles",
+      "attributes": {
+        "title": "title for article2",
+        "preview": "preview for article2",
+        "description": "description for article2 description for article2 description for article2 description for article2 description for article2 description for article2 description for article2 description for article2 description for article2 description for article2 description for article2",
+        "body": "body for article2"
+      }
+    },
+    {
+      "id": 3,
+      "type": "articles",
+      "attributes": {
+        "title": "title for article3",
+        "preview": "preview for article3",
+        "description": "description for article3 description for article3 description for article3 description for article3 description for article3 description for article3 description for article3 description for article3 description for article3 description for article3 description for article3",
+        "body": "body for article3"
+      }
+    },
+    {
+      "id": 4,
+      "type": "articles",
+      "attributes": {
+        "title": "title for article4",
+        "preview": "preview for article4",
+        "description": "description for article4 description for article4 description for article4 description for article4 description for article4 description for article4 description for article4 description for article4 description for article4 description for article4 description for article4",
+        "body": "body for article4"
+      }
+    },
+    {
+      "id": 5,
+      "type": "articles",
+      "attributes": {
+        "title": "title for article5",
+        "preview": "preview for article5",
+        "description": "description for article5 description for article5 description for article5 description for article5 description for article5 description for article5 description for article5 description for article5 description for article5 description for article5 description for article5",
+        "body": "body for article5"
+      }
+    },
+    {
+      "id": 6,
+      "type": "articles",
+      "attributes": {
+        "title": "title for article6",
+        "preview": "preview for article6",
+        "description": "description for article6 description for article6 description for article6 description for article6 description for article6 description for article6 description for article6 description for article6 description for article6 description for article6 description for article6",
+        "body": "body for article6"
+      }
+    },
+    {
+      "id": 7,
+      "type": "articles",
+      "attributes": {
+        "title": "title for article7",
+        "preview": "preview for article7",
+        "description": "description for article7 description for article7 description for article7 description for article7 description for article7 description for article7 description for article7 description for article7 description for article7 description for article7 description for article7",
+        "body": "body for article7"
+      }
+    },
+    {
+      "id": 8,
+      "type": "articles",
+      "attributes": {
+        "title": "title for article8",
+        "preview": "preview for article8",
+        "description": "description for article8 description for article8 description for article8 description for article8 description for article8 description for article8 description for article8 description for article8 description for article8 description for article8 description for article8",
+        "body": "body for article8"
+      }
+    }
+  ]
+}
